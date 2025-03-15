@@ -1,0 +1,136 @@
+
+.blog-content{
+    .title-blog{
+        padding-top: 60px;
+
+        img{
+            width: 25rem;
+        }
+    }
+    
+    .text-description{
+
+        .entry-content{ 
+            padding: 20px 0;
+
+            p{
+                margin: auto;
+                text-align: justify;
+            }
+        }
+    }
+}
+
+.ui.card, .ui.cards>.card {
+    background: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    border: solid;
+}
+.ui.card>.image, 
+.ui.cards>.card>.image{
+    background: none !important;
+    border: none !important;
+}
+
+.ui.card>.content, .ui.cards>.card>.content{
+    border: none !important;
+}
+
+.ui.cards>.card>.image img{
+    padding: 16.5px 22px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+h2{
+    font-family: var(--font-family-base);
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 2rem;
+}
+p{
+    color: var(--secondary-color);
+    font-size: 1,5rem;
+}
+
+.extra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+    .post-meta{
+        padding: 5px 10px 5px 0;
+        margin: 5px;
+        font-size: 1.3rem;
+    }
+
+    .post-category{
+        padding: 5px 10px;
+        margin: 5px;
+        width: auto;
+        font-size: 1.3rem;
+        border: 1px solid;
+        border-radius: 25px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .post-meta, .post-category{
+
+        a:hover{
+            color: var(--hover-color) !important;
+            font-weight: 500;
+            display: inline-block;
+            transform: rotate(-0.5deg) scale(1.01); /* Rota y aumenta de tamaño */
+            transition: transform 0.3s ease-in-out;
+        }
+    }
+}
+aside{
+    a:hover{
+        color: var(--hover-color) !important;
+        font-weight: 500;
+        display: inline-block;
+        transform: rotate(-0.5deg) scale(1.01); /* Rota y aumenta de tamaño */
+        transition: transform 0.3s ease-in-out;
+    }
+}
+
+.ui.divider.division{
+    margin-top: 50px;
+}
+
+
+
+/* .post-excerpt {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+} */
+
+
+
+
+
+/* Espaciado en móviles */
+@media (max-width: 768px) {
+
+}
+
+
+/* Laptops (min-width: 1024px) */
+@media (min-width: 1024px) {
+
+}
+
+/* Desktops (min-width: 1440px) */
+@media (min-width: 1440px) {
+
+}

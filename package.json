@@ -1,0 +1,25 @@
+{
+  "name": "glam2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss src/style.css --dir dest/css",
+    "watch:css": "postcss src/style.css --dir dest/css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "cssnano": "^7.0.6",
+    "postcss": "^8.4.49",
+    "postcss-cli": "^11.0.0",
+    "postcss-custom-media": "^11.0.5",
+    "postcss-import": "^16.1.0",
+    "postcss-import-ext-glob": "^2.1.1",
+    "postcss-mixins": "^11.0.3",
+    "postcss-preset-env": "^10.1.3"
+  }
+}

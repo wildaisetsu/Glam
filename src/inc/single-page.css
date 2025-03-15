@@ -1,0 +1,67 @@
+
+.blog-single{
+
+    .site-main {
+        display: flex;
+        justify-content: center;
+        padding: 40px 20px;
+    }
+    article {
+        max-width: 700px; /* Ancho similar al NY Post */
+        width: 100%;
+        padding: 20px;
+        border-bottom: 2px solid #ddd;
+    }    
+    img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .info-single{
+        display: flex;
+        flex-directino: row;
+    
+        p{
+            margin-right: 20px;
+    
+            a:hover{
+                color: var(--hover-color);
+            }
+        }
+    }
+}
+
+
+
+/* Tablets (iPad, min-width: 768px) */
+@media (min-width: 768px) {
+
+    .top-content{
+            .title{
+
+                img{
+                }
+            }
+            
+            .text-description{
+
+                .entry-content{ 
+
+                    p{
+                    }
+                }
+            }
+    }
+    
+
+}
+
+/* Laptops (min-width: 1024px) */
+@media (min-width: 1024px) {
+
+}
+
+/* Desktops (min-width: 1440px) */
+@media (min-width: 1440px) {
+
+}

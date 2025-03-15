@@ -1,0 +1,56 @@
+
+.top-content{
+    .title{
+        padding-top: 60px;
+        /* background-color: red; */
+
+        img{
+            width: 25rem;
+        }
+    }
+    
+    .text-description{
+
+        .entry-content{ 
+            padding: 20px 0;
+
+            p{
+                margin: auto;
+                text-align: justify;
+            }
+        }
+    }
+}
+
+/* Tablets (iPad, min-width: 768px) */
+@media (min-width: 768px) {
+
+    .top-content{
+            .title{
+
+                img{
+                }
+            }
+            
+            .text-description{
+
+                .entry-content{ 
+
+                    p{
+                    }
+                }
+            }
+    }
+    
+
+}
+
+/* Laptops (min-width: 1024px) */
+@media (min-width: 1024px) {
+
+}
+
+/* Desktops (min-width: 1440px) */
+@media (min-width: 1440px) {
+
+}

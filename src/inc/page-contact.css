@@ -1,0 +1,70 @@
+
+.top-content{
+    .title-hablemos{
+        padding-top: 60px;
+        /* background-color: red; */
+
+        img{
+            width: 31rem;
+        }
+    }
+    
+    .hablemos-form{
+        
+        p{
+            text-align: justify;
+        }
+        .contact{ 
+
+            .single-form{
+                width: 450px;
+                margin: auto;
+
+                input {
+                    background: none; /* Quita el color de fondo */
+                    border: none; /* Quita todos los bordes */
+                    border-bottom: 1px solid black; /* Agrega solo el borde inferior */
+                    outline: none; /* Evita el borde azul al hacer clic (opcional) */
+                    padding: 5px; /* Espaciado interno para mejor apariencia */
+                    width: 100%; /* Ajuste opcional */
+                }
+                
+                textarea{
+                    background-color: rgba(0, 0, 0, 0.05);
+                    border: none; /* Quita todos los bordes */
+                    outline: none; /* Evita el borde azul al hacer clic (opcional) */
+                    padding: 5px; /* Espaciado interno para mejor apariencia */
+                    width: 100%; /* Ajuste opcional */
+                }
+                p:has(.has-spinner) {
+                    display: flex;
+                    justify-content: flex-end;
+                }
+                .has-spinner{
+                    width: auto;
+                    font-family: var(--font-family-base);
+                    border: none;
+                    cursor: grab;
+                }
+                .has-spinner:hover{
+                    color: var(--hover-color);
+                }
+            }
+        }
+    }
+}
+
+/* Tablets (iPad, min-width: 768px) */
+@media (min-width: 768px) {
+
+}
+
+/* Laptops (min-width: 1024px) */
+@media (min-width: 1024px) {
+
+}
+
+/* Desktops (min-width: 1440px) */
+@media (min-width: 1440px) {
+
+}

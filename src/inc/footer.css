@@ -1,0 +1,18 @@
+footer{
+    height: 60px;
+    bottom: 0;
+    margin: auto;
+    margin-top: 40px;
+    
+    a{
+        color: rgb(0, 0, 255);
+    }
+    a:hover{
+        color: var( --hover-color);
+        font-weight: 500;
+        display: inline-block;
+        transform: rotate(-0.5deg) scale(1.01); /* Rota y aumenta de tamaño */
+        transition: transform 0.3s ease-in-out;
+    }
+}
+

@@ -1,0 +1,101 @@
+# Operating System Files
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Linux
+*~
+.directory
+
+# Editor and IDE Files
+
+# PhpStorm
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# WordPress Files
+
+# Core files
+wp-admin/
+wp-includes/
+wp-content/plugins/
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/updraft/
+wp-content/backupwordpress/
+wp-content/managewp/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+
+# Configuration files
+wp-config.php
+.htaccess
+
+# Log files
+*.log
+error_log
+access_log
+
+# Package manager files
+
+# npm
+node_modules/
+npm-debug.log
+
+# Composer
+vendor/
+composer.lock
+
+# Build and dependency tools
+
+# Sass
+.sass-cache/
+*.css.map
+
+# Grunt/Gulp
+.grunt/
+.gulp/
+
+# Bower
+bower_components/
+
+# Theme specific build files
+/build/
+/dist/
+
+# Temporary files
+.tmp/
+tmp/
+temp/
+
+# Local environment files
+.env
+.env.local
+
+# Cache files
+*.cache
+

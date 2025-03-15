@@ -1,0 +1,49 @@
+.post-content{
+    .title-blog{
+        padding-top: 60px;
+
+        img{
+            width: 31rem;
+        }
+    }
+    
+    /* da estilos a la categoria o la fecha titulo de los posts */
+    .type-post{
+        display: flex;
+        align-content: center;
+    
+        /* .post-category, .post-date{
+            width: auto;
+            height: auto;
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+        } */
+    }
+}    
+
+
+
+/* .post-excerpt {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+} */
+
+
+
+
+
+/* Espaciado en móviles */
+@media (max-width: 768px) {
+
+}
+
+
+/* Laptops (min-width: 1024px) */
+@media (min-width: 1024px) {
+
+}
+
+/* Desktops (min-width: 1440px) */
+@media (min-width: 1440px) {
+
+}

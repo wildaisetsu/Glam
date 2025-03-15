@@ -1,0 +1,42 @@
+/* styles.css */
+/* @import 'variables.css'; Si usas variables CSS */
+@import 'inc/mixins.css';
+@import 'inc/site-header.css';
+@import 'inc/footer.css';
+@import 'inc/front-page.css';
+@import 'inc/page-blog-posts.css';
+@import 'inc/page-contact.css';
+@import 'inc/single-page.css';
+@import 'inc/type-post.css';
+
+:root {
+    --primary-color: #F3F2EE;
+    --secondary-color: #000000;
+    --tertiary-color: #FFFFFF;
+    --hover-color: #7B9087;
+    --font-size-base: 22px;
+    --font-size-title: 50px;
+    --font-family-base: 'Abel', sans-serif;
+    --padd-resp: 0 5%;
+    }
+
+
+body{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-base);
+    font-weight: 400;
+    
+    main{
+        background-color: var(--primary-color);
+        display: grid;
+        min-height: 100dvh;
+        grid-template-rows: 1fr auto;
+    }
+    a, p, h1, h2, h3{
+        color: var(--secondary-color);
+        font-family: var(--font-family-base);
+    }
+
+}    
