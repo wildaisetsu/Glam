@@ -4,25 +4,33 @@
     .site-main {
         display: flex;
         justify-content: center;
-        padding: 40px 20px;
+        
+        article {
+            width: 100%;
+            padding: 20px 0;
+            border-bottom: 2px solid #ddd;
+
+            img{
+                width: 100%;
+                height: auto;
+                margin-bottom: 20px;
+            }
+            .entry-content{
+
+                p{
+                    /* text-align: justify; */
+                }
+            }
+        }   
     }
-    article {
-        max-width: 700px; /* Ancho similar al NY Post */
-        width: 100%;
-        padding: 20px;
-        border-bottom: 2px solid #ddd;
-    }    
-    img{
-        width: 100%;
-        height: auto;
-        margin-bottom: 20px;
-    }
+
     .info-single{
         display: flex;
         flex-directino: row;
     
         p{
             margin-right: 20px;
+            word-wrap: break-word;
     
             a:hover{
                 color: var(--hover-color);
@@ -31,29 +39,23 @@
     }
 }
 
-
+/* .post-excerpt {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+} */
 
 /* Tablets (iPad, min-width: 768px) */
 @media (min-width: 768px) {
-
-    .top-content{
-            .title{
-
-                img{
-                }
-            }
-            
-            .text-description{
-
-                .entry-content{ 
-
-                    p{
-                    }
-                }
-            }
+    .site-main {
+        display: flex;
+        justify-content: center;
+        padding: 40px 20px;
     }
-    
-
+    article {
+        max-width: 600px; /* Ancho similar al NY Post */
+        padding: 20px;
+        border-bottom: 2px solid #ddd;
+    }   
 }
 
 /* Laptops (min-width: 1024px) */

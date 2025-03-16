@@ -24,24 +24,7 @@
 
 /* Tablets (iPad, min-width: 768px) */
 @media (min-width: 768px) {
-
-    .top-content{
-            .title{
-
-                img{
-                }
-            }
-            
-            .text-description{
-
-                .entry-content{ 
-
-                    p{
-                    }
-                }
-            }
-    }
-    
+  
 
 }
 

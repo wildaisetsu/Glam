@@ -16,12 +16,15 @@ get_header(); ?>
         </div>
     </div> <!-- Cierra grid -->
 
-    <div class="ui three stackable cards">
+    <div class="ui three stackable doubling two cards">
     <?php include_once get_template_directory() . '/template-parts/pages/page-blog-posts.php';?>
     </div> <!-- Cierra grid text-description -->
+    
+    <?php include_once get_template_directory() . '/template-parts/parts/pagination.php';?>
 
     <?php include_once get_template_directory() . '/template-parts/parts/aside-categories.php';?>
-
+    
+    
 </div>
 
 <?php get_footer(); ?>

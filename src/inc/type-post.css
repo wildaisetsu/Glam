@@ -11,24 +11,8 @@
     .type-post{
         display: flex;
         align-content: center;
-    
-        /* .post-category, .post-date{
-            width: auto;
-            height: auto;
-            font-size: 3rem;
-            margin-bottom: 1.5rem;
-        } */
     }
 }    
-
-
-
-/* .post-excerpt {
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-} */
-
-
 
 
 

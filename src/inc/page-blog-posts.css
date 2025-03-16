@@ -102,21 +102,23 @@ aside{
         transform: rotate(-0.5deg) scale(1.01); /* Rota y aumenta de tamaño */
         transition: transform 0.3s ease-in-out;
     }
+
 }
 
 .ui.divider.division{
     margin-top: 50px;
 }
 
-
-
-/* .post-excerpt {
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-} */
-
-
-
+.pagination{
+    margin-top: 60px;
+    a:hover{
+        color: var(--hover-color) !important;
+        font-weight: 500;
+        display: inline-block;
+        transform: rotate(-0.5deg) scale(1.01); /* Rota y aumenta de tamaño */
+        transition: transform 0.3s ease-in-out;
+    }
+}
 
 
 /* Espaciado en móviles */

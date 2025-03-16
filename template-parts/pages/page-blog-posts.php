@@ -3,7 +3,8 @@
         <?php
         $args = array(
             'post_type' => 'post',
-            'posts_per_page' => 9,
+            'posts_per_page' => 3,
+            'paged'         => $paged,
         );
         $query = new WP_Query($args);
         
@@ -34,7 +35,7 @@
                     <h2 class=""> <?php the_title(); ?> </h2>
                     <p class=""> <?php echo get_the_excerpt(); ?> </p>
                 </div>
-                </div>
+            </div>
             <?php endwhile;
             wp_reset_postdata();
         else :
