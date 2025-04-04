@@ -23,7 +23,7 @@ get_header(); ?>
             </div>
             <div class="ui nine wide column contact" itemprop="mainContentOfPage">
                 <div class="single-form">
-                    <?php echo do_shortcode('[contact-form-7 id="32f1bff" title="hablemos"]'); ?>
+                    <?php echo do_shortcode('[contact-form-7 id="aae6ead" title="hablemos"]'); ?>
                 </div>
             </div>
         </div>
